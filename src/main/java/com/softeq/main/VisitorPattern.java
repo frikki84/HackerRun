@@ -199,7 +199,7 @@ public class VisitorPattern {
     public static List<Color> findColorList(List<Integer> list) {
         Integer nodeNumber = findNodeNumber(list);
         List<Integer> colorNumbers = new ArrayList<>();
-        for (int i = nodeNumber + 1; i <= nodeNumber + nodeNumber; i ++) {
+        for (int i = nodeNumber + 1; i <= nodeNumber*2; i ++) {
             colorNumbers.add(list.get(i));
         }
         List<Color> colors = new ArrayList<>();
@@ -216,9 +216,31 @@ public class VisitorPattern {
     }
 
     public static HashMap<Integer, List<Integer>> findEdgesMap(List<Integer> list) {
+        Integer nodeNumber = findNodeNumber(list);
+        List<Integer> edgeIntegerList = new ArrayList<>();
+        for(int i = nodeNumber*2+1; i < list.size(); i ++) {
+            edgeIntegerList.add(list.get(i));
+        }
 
+        System.out.println("edgeIntegerList " + edgeIntegerList);
 
-        return null;
+        HashMap<Integer, List<Integer>> map = new HashMap<>();
+        List<Integer> value = new ArrayList<>();
+        value.add(edgeIntegerList.get(1));
+        map.put(edgeIntegerList.get(0), value);
+
+        for (int i = 2; i < edgeIntegerList.size(); i += 2) {
+            System.out.println(i + "--- " + edgeIntegerList.get(i));
+
+            if (map.containsKey(edgeIntegerList.get(i))) {
+                map.get(edgeIntegerList.get(i)).add(edgeIntegerList.get(i+1));
+            } else {
+                List<Integer> val= new ArrayList<>();
+                value.add(edgeIntegerList.get(i+1));
+                map.put(edgeIntegerList.get(i), val);
+            }
+        }
+        return map;
     }
 
 

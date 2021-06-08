@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.w3c.dom.ls.LSOutput;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -40,6 +41,16 @@ class VisitorPatternTest {
     void findColorListFaild() {
         List<Color> expected = Arrays.asList(Color.GREEN, Color.RED, Color.RED, Color.GREEN, Color.RED);
         assertNotEquals(expected, VisitorPattern.findColorList(list));
+    }
+
+    @Test
+    void findEdgesMap(){
+        HashMap<Integer, List<Integer>> expectedMap = new HashMap<>();
+        expectedMap.put(1, Arrays.asList(2, 3));
+        expectedMap.put(3, Arrays.asList(4, 5));
+        System.out.println(expectedMap);
+        assertEquals(expectedMap, VisitorPattern.findEdgesMap(list));
+
     }
 }
 
