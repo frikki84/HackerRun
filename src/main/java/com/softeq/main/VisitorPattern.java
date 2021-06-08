@@ -174,9 +174,51 @@ public class VisitorPattern {
     }
 
     public static List<Integer> createValuesArray(){
+        Scanner scanner = new Scanner(System.in);
+        List<Integer> list = new ArrayList<>();
+        while (scanner.hasNext()) {
+            list.add(scanner.nextInt());
+        }
+        return list;
+
+    }
+
+    public static Integer findNodeNumber(List<Integer>list) {
+        return list.get(0);
+    }
+
+    public static List<Integer> findValues(List<Integer>list) {
+        Integer nodeNumber = findNodeNumber(list);
+        List<Integer> values = new ArrayList<>();
+        for(int i = 1; i <= nodeNumber; i ++) {
+            values.add(list.get(i));
+        }
+        return values;
+    }
+
+    public static List<Color> findColorList(List<Integer> list) {
+        Integer nodeNumber = findNodeNumber(list);
+        List<Integer> colorNumbers = new ArrayList<>();
+        for (int i = nodeNumber + 1; i <= nodeNumber + nodeNumber; i ++) {
+            colorNumbers.add(list.get(i));
+        }
+        List<Color> colors = new ArrayList<>();
+
+        for (Integer color : colorNumbers) {
+            if (color == 1) {
+                colors.add(Color.GREEN);
+            } else {
+                colors.add(Color.RED);
+            }
+        }
+
+        return colors;
+    }
+
+    public static HashMap<Integer, List<Integer>> findEdgesMap(List<Integer> list) {
+
 
         return null;
-
     }
 
 

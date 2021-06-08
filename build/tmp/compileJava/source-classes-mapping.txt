@@ -81,6 +81,16 @@ com/softeq/main/guru/XMLExportVisitor.java
  com.softeq.main.guru.XMLExportVisitor
 com/softeq/main/guru/CompoundSyhape.java
  com.softeq.main.guru.CompoundSyhape
+com/softeq/main/guru/Shape.java
+ com.softeq.main.guru.Shape
+com/softeq/main/guru/Visitor.java
+ com.softeq.main.guru.Visitor
+com/softeq/main/guru/Dot.java
+ com.softeq.main.guru.Dot
+com/softeq/main/SHA256.java
+ com.softeq.main.SHA256
+com/softeq/main/guru/VisitorPatternGuru.java
+ com.softeq.main.guru.VisitorPatternGuru
 com/softeq/main/VisitorPattern.java
  com.softeq.main.Color
  com.softeq.main.FancyVisitor
@@ -91,13 +101,3 @@ com/softeq/main/VisitorPattern.java
  com.softeq.main.TreeNode
  com.softeq.main.TreeVis
  com.softeq.main.VisitorPattern
-com/softeq/main/guru/Visitor.java
- com.softeq.main.guru.Visitor
-com/softeq/main/guru/Dot.java
- com.softeq.main.guru.Dot
-com/softeq/main/SHA256.java
- com.softeq.main.SHA256
-com/softeq/main/guru/Shape.java
- com.softeq.main.guru.Shape
-com/softeq/main/guru/VisitorPatternGuru.java
- com.softeq.main.guru.VisitorPatternGuru
