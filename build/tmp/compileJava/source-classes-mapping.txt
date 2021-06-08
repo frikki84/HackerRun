@@ -1,4 +1,103 @@
-com/softeq/main/Unboxer.java
- com.softeq.main.Unboxer
+com/softeq/main/IntToString.java
+ com.softeq.main.IntToString
+com/softeq/main/Regex.java
+ com.softeq.main.Regex
+com/softeq/main/Solution.java
+ com.softeq.main.Solution
+com/softeq/main/Palindrom.java
+ com.softeq.main.Palindrom
 com/softeq/main/DoSomething.java
  com.softeq.main.DoSomething
+com/softeq/main/StringIntroduct.java
+ com.softeq.main.StringIntroduct
+com/softeq/main/StringOne.java
+ com.softeq.main.StringOne
+com/softeq/main/TagAnalyes.java
+ com.softeq.main.TagAnalyes
+com/softeq/main/BigDecimalDecision.java
+ com.softeq.main.BigDecimalDecision
+ com.softeq.main.BigDecimalDecision$1
+com/softeq/main/MyBitSet.java
+ com.softeq.main.MyBitSet
+com/softeq/main/HugeInteger.java
+ com.softeq.main.HugeInteger
+com/softeq/main/MyMap.java
+ com.softeq.main.MyMap
+com/softeq/main/SubArrays.java
+ com.softeq.main.SubArrays
+com/softeq/main/DirtyArray.java
+ com.softeq.main.DirtyArray
+com/softeq/main/MyStack.java
+ com.softeq.main.MyStack
+com/softeq/main/Pairs.java
+ com.softeq.main.Pairs
+com/softeq/main/ComporatorStudents.java
+ com.softeq.main.ComporatorStudents
+ com.softeq.main.Student
+ com.softeq.main.StudentChecker
+com/softeq/main/InstanceOFTutorial.java
+ com.softeq.main.InstanceOFTutorial
+com/softeq/main/MyCalculator.java
+ com.softeq.main.AdvancedArithmetic
+ com.softeq.main.MyCalculator
+com/softeq/main/Sports.java
+ com.softeq.main.Soccer
+ com.softeq.main.Sports
+com/softeq/main/Arithmetic.java
+ com.softeq.main.Adder
+ com.softeq.main.Arithmetic
+com/softeq/main/Book.java
+ com.softeq.main.Book
+ com.softeq.main.MyBook
+com/softeq/main/ComporatorMy.java
+ com.softeq.main.Checker
+ com.softeq.main.ComporatorMy
+ com.softeq.main.Player
+com/softeq/main/SubStringsMy.java
+ com.softeq.main.SubStringsMy
+com/softeq/main/Prime2.java
+ com.softeq.main.Prime2
+com/softeq/main/InnerClassSolution.java
+ com.softeq.main.DoNotTerminate
+ com.softeq.main.DoNotTerminate$1
+ com.softeq.main.DoNotTerminate$ExitTrappedException
+ com.softeq.main.InnerClassSolution
+ com.softeq.main.InnerClassSolution$Inner
+ com.softeq.main.InnerClassSolution$Inner$Private
+com/softeq/main/PrimeChecker.java
+ com.softeq.main.Prime
+ com.softeq.main.PrimeChecker
+com/softeq/main/MoneySpendAnnotation.java
+ com.softeq.main.FamilyBudget
+ com.softeq.main.FamilyMember
+ com.softeq.main.MoneySpendAnnotation
+com/softeq/main/LambdaEx.java
+ com.softeq.main.LambdaEx
+ com.softeq.main.MyMath
+ com.softeq.main.PerformOperation
+com/softeq/main/Md5Hashing.java
+ com.softeq.main.Md5Hashing
+com/softeq/main/guru/XMLExportVisitor.java
+ com.softeq.main.guru.XMLExportVisitor
+com/softeq/main/guru/CompoundSyhape.java
+ com.softeq.main.guru.CompoundSyhape
+com/softeq/main/VisitorPattern.java
+ com.softeq.main.Color
+ com.softeq.main.FancyVisitor
+ com.softeq.main.ProductOfRedNodesVisitor
+ com.softeq.main.SumInLeavesVisitor
+ com.softeq.main.Tree
+ com.softeq.main.TreeLeaf
+ com.softeq.main.TreeNode
+ com.softeq.main.TreeVis
+ com.softeq.main.VisitorPattern
+com/softeq/main/guru/Visitor.java
+ com.softeq.main.guru.Visitor
+com/softeq/main/guru/Dot.java
+ com.softeq.main.guru.Dot
+com/softeq/main/SHA256.java
+ com.softeq.main.SHA256
+com/softeq/main/guru/Shape.java
+ com.softeq.main.guru.Shape
+com/softeq/main/guru/VisitorPatternGuru.java
+ com.softeq.main.guru.VisitorPatternGuru
